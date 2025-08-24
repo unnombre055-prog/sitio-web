@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tienda Escolar</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ Mi Tienda Escolar</h1>
+    <nav>
+      <ul>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#pedido">Pedido</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Productos -->
+  <section id="productos">
+    <h2>Útiles Escolares Destacados</h2>
+    <div class="producto">
+      <img src="img/mochila.jpg" alt="Mochila escolar">
+      <h3>Mochila escolar</h3>
+      <p>Resistente, con varios compartimentos. Ideal para secundaria.</p>
+    </div>
+    <div class="producto">
+      <img src=" img/cuaderno.jpg" alt="Cuadernos">
+      <h3>Cuadernos de colores</h3>
+      <p>Paquete de 5 cuadernos con diseño juvenil.</p>
+    </div>
+    <div class="producto">
+      <img src=" img/lapicero.jpg" alt="Colores y marcadores">
+      <h3>Colores y marcadores</h3>
+      <p>Set completo para arte y tareas escolares.</p>
+    </div>
+  </section>
+
+  <!-- Promociones -->
+  <section id="promociones">
+    <h2>🎉 Promociones Especiales</h2>
+    <p>🎁 Compra 2 mochilas y obtén 1 estuche gratis.</p>
+    <p>📚 Descuento del 20% en útiles si compras antes del 30 de agosto.</p>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+    <h2>📸 Galería Escolar</h2>
+    <div class="galeria">
+      <img src="img/regla.jpg" alt="Escritorio escolar">
+      <img src="img/borrador.jpg " alt="Lápices">
+      <img src="img/silicona.jpg" alt="Cuaderno anillado">
+      <img src="img/tajador.jpg" alt="Borrador">
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios">
+    <h2>🗣️ Testimonios</h2>
+    <blockquote>
+      <p>"Gracias a esta tienda encontré todos mis útiles a buen precio. ¡Excelente servicio!"</p>
+      <cite>- Valeria, alumna de 2º de secundaria</cite>
+    </blockquote>
+    <blockquote>
+      <p>"La página es fácil de usar y encontré lo que necesitaba para el regreso a clases."</p>
+      <cite>- Carlos, alumno de 3º de secundaria</cite>
+    </blockquote>
+  </section>
+
+  <!-- Formulario de Pedido -->
+  <section id="pedido">
+    <h2>📝 Realiza tu Pedido</h2>
+    <form>
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="producto">Producto que deseas:</label><br>
+      <input type="text" id="producto" name="producto" required><br><br>
+
+      <label for="cantidad">Cantidad:</label><br>
+      <input type="number" id="cantidad" name="cantidad" min="1" required><br><br>
+
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <input type="submit" value="Enviar pedido">
+    </form>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>📞 Contáctanos</h2>
+    <p>Correo: contacto@mitiendaescolar.com</p>
+    <p>WhatsApp: +52 123 456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mi Tienda Escolar - Proyecto Escolar de Secundaria</p>
+  </footer>
+
+</body>
+</html>
